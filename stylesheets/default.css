@@ -1,0 +1,80 @@
+
+body {
+  background-color: lightgray;
+  color: black;
+  font-family: Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: darkgray;
+  margin: 0;
+  padding: 10px;
+}
+
+header img {
+  margin-top: 10px;
+  width: 300px;
+  margin: auto;
+  border: 1px dashed black;
+}
+
+header h1 {
+  font-size: 56px;
+  font-family: 'Tangerine', serif;
+  color: navy;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  font-size: 90%;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+  border: 1px dotted black;
+  background-color: gray;
+}
+
+main {
+  text-align: center;
+}
+
+.leftmain {
+  float: left;
+  width: 60%;
+  height: 800px;
+  border: 2px solid black;
+}
+
+.leftmain li {
+  list-style-type: none;
+}
+
+.rightmain {
+  float: right;
+  width: 39%;
+  height: 800px;
+  border: 2px solid black;
+}
+
+.rightmain li {
+  list-style-type: none;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: darkgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

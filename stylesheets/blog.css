@@ -1,0 +1,13 @@
+.leftmain {
+  float: left;
+  width: 29%;
+  height: 800px;
+  border: 2px solid black;
+}
+
+.rightmain {
+  float: right;
+  width: 70%;
+  height: 800px;
+  border: 2px solid black;
+}
