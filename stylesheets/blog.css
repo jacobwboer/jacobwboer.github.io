@@ -1,13 +1,23 @@
 .leftmain {
   float: left;
   width: 29%;
-  height: 800px;
+  height: 1500px;
   border: 2px solid black;
 }
 
 .rightmain {
   float: right;
   width: 70%;
-  height: 800px;
+  height: 1500px;
   border: 2px solid black;
+}
+
+.rightmain p {
+  list-style-type: none;
+  padding: 20px;
+  text-align: left;
+}
+
+.rightmain img {
+  width: 600px;
 }

@@ -52,24 +52,35 @@ main {
 .leftmain {
   float: left;
   width: 60%;
-  height: 800px;
+  height: 1000px;
   border: 2px solid black;
+}
+
+.leftmain ul a {
+  color: black;
+  font-size: 100%;
+
 }
 
 .leftmain li {
   list-style-type: none;
+  padding: 10px;
+  text-align: left;
 }
 
 .rightmain {
   float: right;
   width: 39%;
-  height: 800px;
+  height: 1000px;
   border: 2px solid black;
 }
 
-.rightmain li {
+.rightmain p {
   list-style-type: none;
+  padding: 20px;
+  text-align: left;
 }
+
 
 footer {
   clear: both;
